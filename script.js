@@ -3,6 +3,7 @@ function login(){
     var password = document.getElementById("password").value;
     if(username == "admin" && password == "admin"){
         alert("Login successfully");
+        window.location.href="pages/Client/client.html";
         //window.location = "success.html";
         return false;
     }
@@ -10,3 +11,4 @@ function login(){
         alert("Login failed");
     }
 }
+document.getElementById("fname").textContent=username;
