@@ -1,5 +1,5 @@
 body{
-    background-image: url(back.jpeg);
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -10,7 +10,9 @@ body{
 }
 
 .container{
-    margin-top: 100px;
+    /* margin-top: 90px;
+    margin-left: 100px; */
+    margin: 80px;
     width: 400px;
     height: 400px;
     /* box-shadow: 5px 5px 15px blue;
@@ -18,7 +20,7 @@ body{
     border-radius: 0 20% 0 20%; */
 }
 
-.animation{
+/* .animation{
     width: 100px;
     height: 100px;
     border: 10px solid black;
@@ -54,4 +56,4 @@ body{
         top: 84%;
         left: 0%;
     }
-}
+} */
