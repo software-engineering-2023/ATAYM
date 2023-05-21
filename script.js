@@ -11,4 +11,10 @@ function login(){
         alert("Login failed");
     }
 }
+function client(){
+    window.location.href="pages/Client/loan.html";
+}
+function sub(){
+    alert("Submitted Succesfully");
+}
 document.getElementById("fname").textContent=username;
