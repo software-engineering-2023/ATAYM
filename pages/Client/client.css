@@ -6,3 +6,13 @@ body{
     background-position: 100%;
 }
 
+.slideshow{
+    margin: auto;
+    width: 550px;
+    margin-top: 50px;
+}
+
+.slide{
+    display: flex;
+    border-radius: 30px;
+}
