@@ -19,7 +19,8 @@ body{
     margin-top: 10px;
     width: 400px;
     height: 370px;
-    box-shadow: 0 0 15px rgba(229, 231, 220, 0.3);
+    /* box-shadow: 0 0 15px rgba(229, 231, 220, 0.3); */
+    box-shadow: 0 0 15px #CBB26A;
     border-radius: 20px;
     /* box-shadow: 5px 5px 15px blue;
     border: 2px solid black;
