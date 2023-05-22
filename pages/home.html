@@ -14,10 +14,10 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg top-bar" data-bs-theme="dark" style="font-size:x-large; box-shadow: 0 0 15px #CBB26A;">
+    <nav class="navbar navbar-expand-lg top-bar" data-bs-theme="dark" id="navbar">
         <div class="container-fluid">
           <a href="#">
-            <img src="Client/logoo.png" style="width: 10rem;">
+            <img src="Client/logoo.png" style="width: 7rem;">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined">
+                <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined icon">
                     home
                     </span></a>
               </li>
@@ -34,7 +34,7 @@
               </li> -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined icon">
                         notifications
                     </span>
                 </a>
@@ -50,9 +50,35 @@
               </li> -->
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button button class="btn btn-outline-success bg-black" type="submit" style="color: #CBB26A; border-color: #CBB26A; width: 150px;">Search</button>
-              
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button button class="btn btn-outline-success bg-black" type="submit" style="color: #CBB26A; border-color: #CBB26A; width: 150px;">Search</button> -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="material-symbols-outlined icon">
+                          account_circle
+                      </span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined icon">
+                        settings
+                        </span></a>
+                  </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li> -->
+              </ul>
             </form>
           </div>
         </div>
