@@ -18,125 +18,113 @@
 
 <body>
 
-  
+  <div class="container">
+    <img src="../../../public/logoo.png" style="width:25%; padding-top: 10px;">
+    <h1>Loan Application</h1>
 
 
 
-  <!-- <div style=" display: flex ; flex-direction: column; align-items: center;">
-    <div style=" background-color: #CBB26A;  border: 2px solid #CBB26A;
+    <form action="form.html" method="POST">
 
-        border-radius: 10px; margin: 50px 0px;"> -->
+      <fieldset>
 
-
-
-      <div class="container">
-        <img src="../../../public/logoo.png" style="width:25%; padding-top: 10px;">
-        <h1>Loan Application</h1>
-        
-
-      
-      <form action="form.html" method="POST">
-
-        <fieldset>
-          
-            <legend style="color: #CBB26A;">Basic Information</legend>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="fName" style="width: 50%;" placeholder="name">
-              <label for="fName">First Name</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="middle-initial" style="width: 50%;" placeholder="name">
-              <label for="middle-initial">Middle Initial</label>
-            </div>
-            <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="last-name" style="width: 50%;" placeholder="name" >
-            <label for="last-name">Last Name</label>
-          </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="last-name" style="width: 50%;" placeholder="name">
-              <label for="last-name">Last Name</label>
-            </div>
-
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="email" style="width: 50%;" placeholder="name@example.com">
-              <label for="email">Email Address</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="tel" class="form-control" id="contact" style="width: 50%;" placeholder="phone">
-              <label for="contact">Contact Number</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="address" style="width: 50%;" placeholder="name">
-              <label for="address">Home Address</label>
-            </div>
-          
-        </fieldset>
-        <fieldset>
-          
-            <legend style="color: #CBB26A">Work Information</legend>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="occupation" style="width: 50%;" placeholder="name">
-              <label for="occupation">Current Occupation</label>
-            </div>
-          
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="employer" style="width: 50%;" placeholder="name">
-            <label for="employer">Employer</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="position" style="width: 50%;" placeholder="name">
-            <label for="position">Current Position</label>
-          </div>
-    </div>
-    </fieldset>
-    <fieldset>
-      <div class="container">
-        <legend style="color: #CBB26A">Loan Information</legend>
+        <legend style="color: #CBB26A;">Basic Information</legend>
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="loan" style="width: 50%;" placeholder="Loan"
-            list="type-of-loan" />
-          <datalist id="type-of-loan">
-            <option value="Commercial">
-            <option value="Real Estate">
-            <option value="Personal">
-            <option value="Mortgage">
-          </datalist>
-          <label for="loan">Loan Type</label>
+          <input type="text" class="form-control" id="fName" style="width: 50%;" placeholder="name">
+          <label for="fName">First Name</label>
         </div>
         <div class="form-floating mb-3">
-          <input type="number" class="form-control" id="loanAmount" style="width: 50%;" placeholder="name">
-          <label for="loanAmount">Loan Amount</label>
+          <input type="text" class="form-control" id="middle-initial" style="width: 50%;" placeholder="name">
+          <label for="middle-initial">Middle Initial</label>
         </div>
         <div class="form-floating mb-3">
-          <input type="number" class="form-control" id="loanLength" style="width: 50%;" placeholder="Loan">
-          <label for="loanLength">Loan Length</label>
+          <input type="text" class="form-control" id="last-name" style="width: 50%;" placeholder="name">
+          <label for="last-name">Last Name</label>
         </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="last-name" style="width: 50%;" placeholder="name">
+          <label for="last-name">Last Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" style="width: 50%;" placeholder="name@example.com">
+          <label for="email">Email Address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="tel" class="form-control" id="contact" style="width: 50%;" placeholder="phone">
+          <label for="contact">Contact Number</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="address" style="width: 50%;" placeholder="name">
+          <label for="address">Home Address</label>
+        </div>
+
+      </fieldset>
+      <fieldset>
+
+        <legend style="color: #CBB26A">Work Information</legend>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="occupation" style="width: 50%;" placeholder="name">
+          <label for="occupation">Current Occupation</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="employer" style="width: 50%;" placeholder="name">
+          <label for="employer">Employer</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="position" style="width: 50%;" placeholder="name">
+          <label for="position">Current Position</label>
+        </div>
+  </div>
+  </fieldset>
+  <fieldset>
+    <div class="container">
+      <legend style="color: #CBB26A">Loan Information</legend>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="loan" style="width: 50%;" placeholder="Loan" list="type-of-loan" />
+        <datalist id="type-of-loan">
+          <option value="Commercial">
+          <option value="Real Estate">
+          <option value="Personal">
+          <option value="Mortgage">
+        </datalist>
+        <label for="loan">Loan Type</label>
       </div>
-    </fieldset>
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="loanAmount" style="width: 50%;" placeholder="name">
+        <label for="loanAmount">Loan Amount</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="loanLength" style="width: 50%;" placeholder="Loan">
+        <label for="loanLength">Loan Length</label>
+      </div>
+    </div>
+  </fieldset>
 
-    <fieldset>
-      <legend>Special Considerations</legend>
-      <label for="down payment">Down Payment</label>
-      <input type="text" name="down payment" />
-      <input type="checkbox" name="out-of-state" value="out-of-state">Out of State Resident
-      <input type="checkbox" name="cosigner" value="cosigner">Cosigner
-      <br />
-      <label for="name">Name of Cosigner</label>
-      <input type="text" name="name-of-cosigner" />
-      <label for="occupation">Cosigner Occupation</label>
-      <input type="text" name="occupation" />
-    </fieldset>
-    <fieldset>
-      <legend>Comments</legend>
-      <textarea name='comment' name='comment'></textarea>
+  <fieldset>
+    <legend>Special Considerations</legend>
+    <label for="down payment">Down Payment</label>
+    <input type="text" name="down payment" />
+    <input type="checkbox" name="out-of-state" value="out-of-state">Out of State Resident
+    <input type="checkbox" name="cosigner" value="cosigner">Cosigner
+    <br />
+    <label for="name">Name of Cosigner</label>
+    <input type="text" name="name-of-cosigner" />
+    <label for="occupation">Cosigner Occupation</label>
+    <input type="text" name="occupation" />
+  </fieldset>
+  <fieldset>
+    <legend>Comments</legend>
+    <textarea name='comment' name='comment'></textarea>
 
-      <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
-    </fieldset>
+    <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+  </fieldset>
 
-    <button type="submit">Submit</button>
-    </form>
+  <button type="submit">Submit</button>
+  </form>
 
-    <h3>Applid loan Status</h3>
+  <h3>Applid loan Status</h3>
 
 
 

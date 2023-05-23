@@ -13,10 +13,17 @@ function login() {
     }
 }
 
-function client(){
-    window.location.href="pages/Client/loan.html";
+function client() {
+    window.location.href = "pages/Client/loan.html";
 }
-function sub(){
+function sub() {
     alert("Submitted Succesfully");
 }
-document.getElementById("fname").textContent=username;
+document.getElementById("fname").textContent = username;
+
+
+function payBill() {
+
+    alert("Bill paid successfully");
+
+}
