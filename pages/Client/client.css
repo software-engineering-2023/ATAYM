@@ -31,3 +31,14 @@ body{
     margin-top: 7px;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 15rem auto;
+    gap : 2rem;
+}
+aside{
+    height:80vh;
+}
+aside .left{
+
+}
