@@ -18,81 +18,27 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg top-bar" data-bs-theme="dark" id="navbar">
-    <div class="container-fluid">
-      <a href="#">
-        <img src="../../../public/logoo.png" style="width: 7rem;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined icon">
-                home
-              </span></a>
-          </li>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <span class="material-symbols-outlined icon">
-                notifications
-              </span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <span class="material-symbols-outlined icon">
-
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined icon">
-                  settings
-                </span></a>
-            </li>
-          </ul>
-        </form>
-      </div>
-    </div>
-  </nav>
+  
 
 
 
-  <div style=" display: flex ; flex-direction: column; align-items: center;">
+  <!-- <div style=" display: flex ; flex-direction: column; align-items: center;">
     <div style=" background-color: #CBB26A;  border: 2px solid #CBB26A;
 
-        border-radius: 10px; margin: 50px 0px;">
+        border-radius: 10px; margin: 50px 0px;"> -->
 
 
+
+      <div class="container">
+        <img src="../../../public/logoo.png" style="width:25%; padding-top: 10px;">
+        <h1>Loan Application</h1>
+        
+
+      
       <form action="form.html" method="POST">
 
         <fieldset>
-          <div class="container">
+          
             <legend style="color: #CBB26A;">Basic Information</legend>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="fName" style="width: 50%;" placeholder="name">
@@ -102,9 +48,10 @@
               <input type="text" class="form-control" id="middle-initial" style="width: 50%;" placeholder="name">
               <label for="middle-initial">Middle Initial</label>
             </div>
-
-            <input type="text" class="form-control" id="first-name" />
-            <label for="first-name">First Name</label> -->
+            <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="last-name" style="width: 50%;" placeholder="name" >
+            <label for="last-name">Last Name</label>
+          </div>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="last-name" style="width: 50%;" placeholder="name">
               <label for="last-name">Last Name</label>
@@ -122,16 +69,16 @@
               <input type="text" class="form-control" id="address" style="width: 50%;" placeholder="name">
               <label for="address">Home Address</label>
             </div>
-          </div>
+          
         </fieldset>
         <fieldset>
-          <div class="container">
+          
             <legend style="color: #CBB26A">Work Information</legend>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="occupation" style="width: 50%;" placeholder="name">
               <label for="occupation">Current Occupation</label>
             </div>
-          </div>
+          
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="employer" style="width: 50%;" placeholder="name">
             <label for="employer">Employer</label>

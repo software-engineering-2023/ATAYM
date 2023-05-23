@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
 body {
     /* background-image: url(wallpaperflare.com_wallpaper.jpg); */
     background-size: cover;
@@ -7,7 +11,8 @@ body {
 }
 
 .login {
-    color: #CBB26A;
+    color: #FFCC66;
+    font-family:poppins,sans-serif;
 }
 
 
@@ -20,7 +25,7 @@ body {
     width: 400px;
     height: 370px;
     /* box-shadow: 0 0 15px rgba(229, 231, 220, 0.3); */
-    box-shadow: 0 0 15px #CBB26A;
+    box-shadow: 0 0 15px #FFCC66;
     border-radius: 20px;
     transition: all 400ms ease-in;
     /* box-shadow: 5px 5px 15px blue;
