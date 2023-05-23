@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+body {
+    /* background-image: url(wallpaperflare.com_wallpaper.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: 100%;
+
+}
+
+.slideshow {
+    margin: auto;
+    width: 550px;
+    margin-top: 50px;
+}
+
+.slide {
+    display: flex;
+    border-radius: 30px;
+}
+
+.bodeBar {
+    display: flex;
+    ;
+}
+
+.sideBar {
+
+    border: 2px solid #CBB26A;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px 30px;
+
+
+}
+
+button {
+    background-color: #000000;
+    border: 2px solid #CBB26A;
+
+    color: #CBB26A;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 150px;
+
+
+}
+
+
+.button1:hover {
+    background-color: #CBB26A;
+    color: #000000;
+}
+
+
+
+
+
+
+.sideBarItems {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#navbar {
+    font-size: x-large;
+    box-shadow: 0 0 15px #CBB26A;
+    height: 70px;
+}
+
+.icon {
+    margin-left: 40px;
+    margin-top: 7px;
+}
