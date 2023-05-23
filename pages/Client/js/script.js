@@ -16,7 +16,8 @@ function login() {
 function client(){
     window.location.href="pages/Client/loan.html";
 }
-function sub(){
+function submit(){
     alert("Submitted Succesfully");
+    
 }
 document.getElementById("fname").textContent=username;
