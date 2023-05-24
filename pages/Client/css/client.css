@@ -175,14 +175,11 @@ body {
 
 }
 
-/* .content:hover{
-    box-shadow: none;
-
-} */
 
 
 .row1{
     /* background-color: darkblue; */
+    
     width: 100%;
     height: 50%;
     display: flex;
@@ -191,12 +188,9 @@ body {
     
     
     
+    
 }
 
-.row1 a{
-    /* gap : 10px; */
-    /* border : 1px solid black; */
-}
 
 .row1 .icons{
     display: flex;
@@ -310,6 +304,8 @@ body {
 #loanPanel{
 
     height: 1590px;
+    flex-direction: row;
+    
     
 
 }
@@ -318,4 +314,169 @@ legend{
     color: #FFCC66;
 }
 
+#loanSummary
+{
+
+    margin-left: 0px;
+    margin-top: 120px;
+    border-radius: 30px;
+    height: 12%;
+    width: 800px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow:  6px 6px 20px #a68542,-6px -6px 20px #ffff8a;
+    margin-top: 0;
+    padding: 5px;
+}
+
+
+.heading{
+
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    margin-left: 0px;
+    /* box-shadow: 0 0 15px #FFCC66; */
+    border-radius: 15px;
+    /* transition: all 400ms ease-in; */
+    color: #FFCC66;
+    
+    
+
+}
+
+
+.headSummary{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin-left: 300px; */
+    /* margin-top: 60px; */
+    width: 600px;
+
+}
+
+.content h4{
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+
+#about{
+    justify-content: center;
+    color: #FFCC66;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: larger;
+    margin-bottom: 150px;
+    width: 650px;
+}
+
+#about h1{
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+
+.bar{
+    height: 90px;
+    /* border: 2px solid white;  */
+    width: 75%;
+    /* margin-top: -70px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: -75px;
+    position: fixed;
+    /* padding: 10px; */
+    justify-content: space-around;
+    background-color: black;
+}
+
+
+.loanC{
+    /* display: flex;
+    flex-direction: row; */
+    /* border: 1px solid black; */
+    color: black;
+    
+}
+
+
+
+.loanTypes{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+
+    width: 750px;
+    height: 350px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 70px;
+
+    /* border: 2px solid white ; */
+    
+    margin-left: 5px;
+
+    margin-bottom: 150px;
+
+}
+
+
+
+.personalCar{
+    border-radius: 30px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow:  6px 6px 20px #a68542,-6px -6px 20px #ffff8a;
+    width: 290px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    font-size: 17px;
+    font-family:poppins,sans-serif;
+    color: black;
+
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.personalCar:hover{
+    background: linear-gradient(145deg, #ffda6d, #e6b85c);
+    box-shadow:  6px 6px 20px #ffff8a,-6px -6px 20px #a68542;
+}
+
+.personalCar h1{
+    /* margin-top: 20px; */
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    
+}
+
+
+.bar a{
+    width: fit-content ;
+    height: fit-content;
+    padding: 5px;
+}
+
+.bar a:hover{
+    
+    background-color: #1e1701;
+    border-radius: 10px;
+
+}
 
