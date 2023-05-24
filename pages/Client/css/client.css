@@ -501,7 +501,6 @@ legend {
 
 
 
-
 .bills {
 
 
@@ -525,20 +524,10 @@ legend {
 
 .billsRow1 {
     display: flex;
-    justify-content: space-between;
-    color: #FFCC66;
-
-    height: 350px;
-    width: 75%;
-    margin-top: 150px;
-    margin-left: -80px;
-
-    margin-bottom: 150px;
-
-
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    width: 100%;
+    margin-top: 15 px;
+    margin-left: 130px;
+    gap: 400px;
 
 
 }
@@ -560,13 +549,12 @@ legend {
 .billsContet {
 
 
-    width: 100%;
+    width: 90%;
     height: 500px;
     display: flex;
     flex-direction: column;
     margin-left: 230px;
     margin-top: 100px;
-    border-radius: 15px;
     transition: all 400ms ease-in;
     padding: 20px;
     justify-content: space-between;
@@ -576,6 +564,98 @@ legend {
 
 .billsSeperator {
     height: 1px;
-    width: 50px;
+    width: 10%;
     background-color: #FFCC66;
+}
+
+.headingBill {
+
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 590px;
+
+    border-radius: 15px;
+    /* transition: all 400ms ease-in; */
+    color: #FFCC66;
+
+}
+
+.panelBills {
+    background-color: black;
+    width: 100%;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    position: relative;
+
+}
+
+.billSummary {
+
+    margin-top: 120px;
+
+    width: 560px;
+    height: 190px;
+
+    background: #FFCC66;
+    border-radius: 12px;
+    margin-top: 0;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.billSummary:hover {
+    border-radius: 12px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #fdd843;
+}
+
+
+.row1Bills {
+    background-color: darkblue;
+
+    width: 100%;
+    height: 50%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+
+
+}
+
+.wraper {
+    margin-left: 280px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+
+
+
+}
+
+
+
+
+.companyName {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+
+
 }
