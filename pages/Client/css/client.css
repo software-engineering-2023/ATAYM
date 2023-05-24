@@ -310,6 +310,18 @@ body {
 
 }
 
+
+
+
+#loanPanel1{
+
+    height: 1590px;
+    flex-direction: column;
+    
+    
+
+}
+
 legend{
     color: #FFCC66;
 }
