@@ -306,6 +306,73 @@ body {
     color: #FFCC66;
 
 }
+#TransferTitle{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family:poppins,sans-serif;
+    color: #FFCC66;
+    
+    margin-left:300px;
+    
+}
+#TransferTitle{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family:poppins,sans-serif;
+    color: #FFCC66;
+    
+}
+#Transferlist{
+    width: 200px;
+    margin-left:310px;
+    background-color: #f9f9f906;
+    box-shadow:  6px 6px 20px #a68542,-6px -6px 20px #ffff8a;
+    border-color:  #FFCC66;
+    border-width: 5px;
+    border-radius: 5px;
+    color:#FFCC66;
+    
+    
+    
+
+
+}
+#Bank{
+    visibility: hidden;
+    
+
+    
+}
+.Banks{
+width: 800px;
+
+justify-content: space-around;
+    display: flex;
+    
+    border: 2px solid white;
+
+
+    
+}
+
+#Acc1{
+ width: 200px;
+ 
+}
+.accc{
+    flex-direction: row;
+    
+    color:red;
+}
+#Acc2{
+   
+    width: 200px;
+    margin-left: 600px;
+   }
+#Country{
+    
+    visibility: hidden;
+}
 
 #loanPanel {
 
@@ -343,6 +410,19 @@ legend {
     box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
     margin-top: 0;
     padding: 5px;
+}
+#RecentTransfers
+{
+
+    margin-left: 5px;
+    margin-top: 120px;
+    border-radius: 30px;
+    height: 12%;
+    width: 800px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow:  6px 6px 20px #a68542,-6px -6px 20px #ffff8a;
+    margin-top: 0;
+    padding: 3px;
 }
 
 
@@ -449,6 +529,29 @@ legend {
 
 }
 
+.transferTypes{
+    display: flex;
+    /* flex-direction: row; */
+ 
+
+    width: 900px;
+    height: 900px;
+    margin-left: -40px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 70px;
+
+    /* border: 2px solid white ; */
+    
+    
+
+    margin-bottom: 150px;
+
+}
+
 
 
 .personalCar {
@@ -483,6 +586,37 @@ legend {
 
 }
 
+.Transfer{
+    border-radius: 30px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow:  6px 6px 20px #a68542,-6px -6px 20px #ffff8a;
+    width: 290px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    font-size: 17px;
+    font-family:poppins,sans-serif;
+    color: black;
+
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.Transfer:hover{
+    background: linear-gradient(145deg, #ffda6d, #e6b85c);
+    box-shadow:  6px 6px 20px #ffff8a,-6px -6px 20px #a68542;
+}
+
+.Transfer h1{
+    /* margin-top: 20px; */
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    
+}
 
 .bar a {
     width: fit-content;
@@ -496,8 +630,15 @@ legend {
     border-radius: 10px;
 
 }
+#transactionpanel{
+   
+    height: 1590px;
+    flex-direction: row;
+}
 
 
+.form-control{
+    display: flex;
 
 
 
@@ -655,7 +796,6 @@ legend {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-
 
 
 }
