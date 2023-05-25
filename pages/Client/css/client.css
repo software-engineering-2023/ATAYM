@@ -286,7 +286,7 @@ body {
 
 .loanApp {
     width: 600px;
-    height: 93%;
+    height: 92%;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 15px #FFCC66;
@@ -327,6 +327,9 @@ body {
 
 
 }
+
+
+
 
 legend {
     color: #FFCC66;
@@ -468,6 +471,7 @@ legend {
     text-align: center;
     padding-right: 5px;
     padding-left: 5px;
+    transition: all 200ms ease-in;
 }
 
 .personalCar:hover {
@@ -659,3 +663,122 @@ legend {
 
 
 }
+
+
+#cardSummary {
+
+    
+    margin-top: 120px;
+    border-radius: 30px;
+    height: 12%;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
+    margin-top: 0;
+    padding: 15px;
+    transition: all 200ms ease-in;
+    width: 1000px;
+    margin-left: -70px;
+}
+
+
+#cardSummary:hover{
+    background: linear-gradient(145deg, #ffda6d, #e6b85c);
+    box-shadow: 6px 6px 20px #ffff8a, -6px -6px 20px #a68542;
+}
+
+
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    /* border: 2px solid white; */
+    margin-left: 650px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+
+.ccRow {
+    /* display: flex;
+    flex-direction: row; */
+    /* border: 1px solid black; */
+    color: black;
+    
+    padding: 5px;
+
+
+}
+
+
+.ccRow:hover{
+    /*flip the colors*/
+
+    background-color: #1e1701;
+    border-radius: 10px;
+    color:#fdd843;
+}
+
+.appTitle{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: poppins, sans-serif;
+    color:#FFCC66;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.appTitle h5{
+    font-size: 35px;
+    
+}
+
+
+#cardPanel {
+
+    height: 1360px;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+
+#loanType{
+    width: 50%;
+    height: 40px;
+    margin: 20px 0;
+}
+
+
+.submit{
+    width: 35%; 
+    align-self:self-end; 
+    margin-top: 50px; 
+    background-color: #d3b230; 
+    color: black ;
+}
+
+.submit:hover{
+    background-color: #5e5018;
+    color: black;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+
+
+
+
