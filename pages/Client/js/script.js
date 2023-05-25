@@ -21,3 +21,8 @@ function submit(){
     
 }
 document.getElementById("fname").textContent=username;
+
+function goToHome(){
+    window.location.href="../html/home.html";
+}
+
