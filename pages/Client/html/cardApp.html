@@ -14,20 +14,13 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
       />
 
-  <title>Loan Application</title>
+  <title>Card Application</title>
 </head>
 
 <body>
 
   
-
-
-
-  <div class="container1">
-
-   
-
-    <div class="panel" id="loanPanel1">
+    <div id="cardPanel">
       
 
 
@@ -109,20 +102,15 @@
       </div>
 
       
-        <!-- <div>
-          
-        </div> -->
-
-
         <div class="appTitle">
 
-          <h5>Loan Application</h5>
-        <i class="fa-solid fa-hand-holding-dollar fa-flip fa-3x" style="color: #FFCC66;margin-left: 18px;"></i>
-      </div>
+            <h5>Card Application</h5> 
+            <i class="fa-solid fa-credit-card fa-flip fa-3x" style="color: #FFCC66;margin-left: 18px;"></i>
+        </div>
         
         
 
-      <div class="loanApp">
+      <div class="loanApp" style=" height: 64%;">
         
        
         <fieldset>
@@ -154,6 +142,16 @@
               <input type="text" class="form-control" id="address" style="width: 50%;" placeholder="name">
               <label for="address">Home Address</label>
             </div>
+
+
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="loanType">
+                <option selected>Card Type</option>
+                <option value="1">Standard</option>
+                <option value="2">Premium</option>
+                
+              </select>
+
+    
           
         </fieldset>
         <fieldset>
@@ -168,63 +166,16 @@
             <input type="text" class="form-control" id="employer" style="width: 50%;" placeholder="name">
             <label for="employer">Employer</label>
           </div>
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="position" style="width: 50%;" placeholder="name">
-            <label for="position">Current Position</label>
-          </div>
+          
+          
     
     </fieldset>
-    <fieldset>
-      
-        <legend style="color: #FFCC66">Loan Information</legend>
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="loanType">
-          <option selected>Loan Type</option>
-          <option value="1">Car</option>
-          <option value="2">Personal</option>
-          
-        </select>
-        <div class="form-floating mb-3">
-          <input type="number" class="form-control" id="loanAmount" style="width: 50%;" placeholder="name">
-          <label for="loanAmount">Loan Amount</label>
-        </div>
-        <div class="form-floating mb-3">
-          <input type="number" class="form-control" id="loanLength" style="width: 50%;" placeholder="Loan">
-          <label for="loanLength">Loan Length</label>
-        </div>
-      
-    </fieldset>
+    
 
-    <fieldset>
-      <legend>Special Considerations</legend>
-      
-      <h4 style="color: #FFCC66; font-size: 15px; margin-left: 5px;">Out of State Resident
-        <input type="checkbox" style="width: 35px;">
-      </h4>
-      <h4 style="color: #FFCC66; font-size: 15px; margin-left: 5px; margin-bottom: 10px;">Cosigner
-        <input type="checkbox" style="width: 35px;">
-      </h4>
-      <div class="form-floating mb-3">
-        <input type="name" class="form-control" id="cosignerName" style="width: 50%;" placeholder="name">
-        <label for="cosignerName">Cosigner Name</label>
-      </div>
-      <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="cosignerOcc" style="width: 50%;" placeholder="name">
-        <label for="cosignerOcc">Cosigner Occupation</label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="rel" style="width: 50%;" placeholder="name">
-        <label for="rel">Cosigner Relation</label>
-      </div>
 
-      <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
-    </fieldset>
-
-    <legend style=" color: #FFCC66;">Upload Proof Of Assets</legend>
-
+    <legend style="color: #FFCC66">Upload Your Signature</legend>
     <div>
-      <input type="file" class="form-control" style="width: 80%; height: 40px;">
+      <input type="file" class="form-control" style="width: 50%; height: 40px;">
     </div>
     
     
@@ -242,7 +193,7 @@
   </div>
 
 
-  </div>
+  
 
 
   </div>
