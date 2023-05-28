@@ -84,6 +84,19 @@ body {
     border-radius: 5px;
 }
 
+
+.side-bar button {
+    border: none;
+    margin-left: -7px;
+    background-color: black;
+}
+
+.side-bar button:hover {
+    background-color: #FFCC66;
+    color: black;
+    border-radius: 5px;
+}
+
 .settings {
     padding: 90px 0 0 0;
 }
@@ -925,4 +938,59 @@ legend {
     color: black;
     cursor: pointer;
     transition: all 200ms ease-in;
+}
+
+
+
+
+
+#notify{
+    margin-left: 15px;
+    background-color: rgb(214, 42, 42);
+    height: fit-content;
+
+    
+}
+
+.accountTypes{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+
+    width: 750px;
+    height: 350px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 70px;
+
+    /* border: 2px solid white ; */
+
+    margin-left: 5px;
+
+    margin-bottom: 150px;
+
+    margin-top: 150px;
+}
+
+
+.myAccounts{
+    width: 700px;
+    height: 350px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#account{
+    border-radius: 30px;
+    height: 50%;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
+    padding: 15px;
+    transition: all 200ms ease-in;
+    width: 100%;
 }

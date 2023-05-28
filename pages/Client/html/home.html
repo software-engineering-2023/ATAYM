@@ -86,25 +86,18 @@
 
           <a href="" class="icons">
             <span class="material-symbols-outlined">
-              notifications
-            </span>
-            <h3 class="head">Notifications</h3>
-          </a>
-
-
-          <a href="" class="icons">
-            <span class="material-symbols-outlined">
               contact_mail
             </span>
             <h3 class="head">Contact Us</h3>
           </a>
 
-
-
-
-
-
-
+          <button type="button" class="icons" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+            <span class="material-symbols-outlined">
+              notifications
+            </span>
+            <h3 class="head">Notifications</h3>
+            <span class="badge" id="notify">3</span>
+          </button>
 
 
         </div>
@@ -163,7 +156,7 @@
         <div class="row1">
 
           <div class="page">
-            <a href="" class="icons">
+            <a href="../html/cards.html" class="icons">
               <!-- <span class="material-symbols-outlined" style="margin-left: 18px;">
                   credit_card
                 </span> -->
@@ -173,7 +166,7 @@
           </div>
 
           <div class="page">
-            <a href="" class="icons">
+            <a href="../html/loan.html" class="icons">
               <i class="fa-solid fa-hand-holding-dollar fa-flip fa-3x" style="color: #FFCC66;margin-left: 18px;"></i>
               <h3 class="head">Loans</h3>
             </a>
@@ -189,6 +182,46 @@
 
         </div>
 
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Notifications</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row1">
+
+            <a href="../html/loan.html">
+              <i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 10px;"></i>
+            </a>
+            Your loan application #7090 with Ascend Wealth has been accepted! Congratulations on your approved loan
+          </div>
+
+          <hr>
+
+          <div class="row1">
+            <a href="../html/cards.html">
+              <i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 10px;"></i>
+            </a>
+            Your Credit Card application #7090 with Ascend Wealth has been accepted! Congratulations on your approved Card
+          </div>
+
+          <hr>
+
+          <div class="row1">
+            <a href="../html/cards.html">
+              <i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 10px;"></i>
+            </a>
+            Your report regarding the stolen card has been processed and your new card is now ready for collection at the nearest branch.</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="goToHome()">Go to Home</button>
+        </div>
       </div>
     </div>
   </div>
