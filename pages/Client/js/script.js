@@ -1,3 +1,11 @@
+
+
+const payBillsButtons = Array.from(document.querySelectorAll(".green-button"));
+
+
+
+
+
 function login() {
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -53,7 +61,40 @@ function reportLoss(){
 
 }
 
-// function welcome(){
-//     if(location.href)
-// }
+function report(){
+    alert("Reported Successfully");
+    window.location.href = "../html/bills.html";
+}
 
+function payBill(){
+    const card= document.getElementById("card");
+    const acc= document.getElementById("acc");
+    const amountC= document.getElementById("amountC");
+    const amountB= document.getElementById("amountB");
+    // alert(card.value!="")
+    if(card.value!=""){
+        if(amountC.value==""){
+            alert("Please Enter Amount");
+        }
+        else{
+            // const button= document.getElementById("bill1");
+            // button.disabled=true;
+            alert("Payment Successful");
+            
+        }
+    }
+    else if(acc.value!=""){
+        if(amountB.value==""){
+            alert("Please Enter Amount");
+        }
+        else{
+            // const button= document.getElementById("bill1");
+            // button.disabled=true;
+            alert("Payment Successful");
+        }
+    }
+
+    else{
+        alert("Please Select a card or account");
+    }
+}
