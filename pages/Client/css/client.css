@@ -320,6 +320,81 @@ body {
 
 }
 
+#TransferTitle {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family: poppins, sans-serif;
+    color: #FFCC66;
+
+    margin-left: 300px;
+
+}
+
+#TransferTitle {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family: poppins, sans-serif;
+    color: #FFCC66;
+
+}
+
+#Transferlist {
+    width: 200px;
+    margin-left: 310px;
+    background-color: #f9f9f906;
+    box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
+    border-color: #FFCC66;
+    border-width: 5px;
+    border-radius: 5px;
+    color: #FFCC66;
+
+
+
+
+
+}
+
+#Bank {
+    visibility: hidden;
+
+
+
+}
+
+.Banks {
+    width: 800px;
+
+    justify-content: space-around;
+    display: flex;
+
+    border: 2px solid white;
+
+
+
+}
+
+#Acc1 {
+    width: 200px;
+
+}
+
+.accc {
+    flex-direction: row;
+
+    color: red;
+}
+
+#Acc2 {
+
+    width: 200px;
+    margin-left: 600px;
+}
+
+#Country {
+
+    visibility: hidden;
+}
+
 #loanPanel {
 
     height: 1590px;
@@ -359,6 +434,19 @@ legend {
     box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
     margin-top: 0;
     padding: 5px;
+}
+
+#RecentTransfers {
+
+    margin-left: 5px;
+    margin-top: 120px;
+    border-radius: 30px;
+    height: 12%;
+    width: 800px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
+    margin-top: 0;
+    padding: 3px;
 }
 
 
@@ -465,6 +553,29 @@ legend {
 
 }
 
+.transferTypes {
+    display: flex;
+    /* flex-direction: row; */
+
+
+    width: 900px;
+    height: 900px;
+    margin-left: -40px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 70px;
+
+    /* border: 2px solid white ; */
+
+
+
+    margin-bottom: 150px;
+
+}
+
 
 
 .personalCar {
@@ -500,6 +611,37 @@ legend {
 
 }
 
+.Transfer {
+    border-radius: 30px;
+    background: linear-gradient(145deg, #e6b85c, #ffda6d);
+    box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
+    width: 290px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    font-size: 17px;
+    font-family: poppins, sans-serif;
+    color: black;
+
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.Transfer:hover {
+    background: linear-gradient(145deg, #ffda6d, #e6b85c);
+    box-shadow: 6px 6px 20px #ffff8a, -6px -6px 20px #a68542;
+}
+
+.Transfer h1 {
+    /* margin-top: 20px; */
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+}
 
 .bar a {
     width: fit-content;
@@ -514,9 +656,18 @@ legend {
 
 }
 
+#transactionpanel {
+
+    height: 1590px;
+    flex-direction: row;
+}
 
 
+.form-control {
+    display: flex;
 
+
+}
 
 .bills {
 
@@ -673,14 +824,11 @@ legend {
     font-size: x-large;
     font-weight: bold;
 
-
-
 }
-
 
 #cardSummary {
 
-    
+
     margin-top: 120px;
     border-radius: 30px;
     height: 12%;
@@ -694,13 +842,13 @@ legend {
 }
 
 
-#cardSummary:hover{
+#cardSummary:hover {
     background: linear-gradient(145deg, #ffda6d, #e6b85c);
     box-shadow: 6px 6px 20px #ffff8a, -6px -6px 20px #a68542;
 }
 
 
-.cardButtons{
+.cardButtons {
     display: flex;
     flex-direction: row;
     width: 320px;
@@ -708,31 +856,34 @@ legend {
     margin-left: 650px;
     margin-top: 20px;
     padding: 10px;
-    
-}
 
+}
 
 .ccRow {
     /* display: flex;
     flex-direction: row; */
     /* border: 1px solid black; */
     color: black;
-    
+
     padding: 5px;
 
 
 }
 
 
-.ccRow:hover{
+.ccRow:hover {
     /*flip the colors*/
 
     background-color: #1e1701;
     border-radius: 10px;
-    color:#fdd843;
+    color: #fdd843;
 }
 
-.appTitle{
+
+
+
+
+.appTitle {
     width: 500px;
     height: 100px;
     display: flex;
@@ -741,17 +892,16 @@ legend {
     margin-top: 40px;
     margin-bottom: 10px;
     font-family: poppins, sans-serif;
-    color:#FFCC66;
+    color: #FFCC66;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.appTitle h5{
+.appTitle h5 {
     font-size: 35px;
-    
-}
 
+}
 
 #cardPanel {
 
@@ -768,28 +918,30 @@ legend {
 
 }
 
-
-#loanType{
+#loanType {
     width: 50%;
     height: 40px;
     margin: 20px 0;
 }
 
 
-.submit{
-    width: 35%; 
-    align-self:self-end; 
-    margin-top: 50px; 
-    background-color: #d3b230; 
-    color: black ;
+.submit {
+    width: 35%;
+    align-self: self-end;
+    margin-top: 50px;
+    background-color: #d3b230;
+    color: black;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: #5e5018;
     color: black;
     cursor: pointer;
     transition: all 200ms ease-in;
 }
+
+
+
 
 
 #notify{
@@ -842,7 +994,3 @@ legend {
     transition: all 200ms ease-in;
     width: 100%;
 }
-
-
-
-
