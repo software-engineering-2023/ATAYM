@@ -336,6 +336,9 @@ body {
     font-family: poppins, sans-serif;
     color: #FFCC66;
 
+    margin-left: 275px;
+    
+
 }
 
 #Transferlist {
@@ -361,36 +364,82 @@ body {
 
 }
 
+
 .Banks {
     width: 800px;
-
+display: inline-block;
     justify-content: space-around;
     display: flex;
 
+    border: 2px solid white;
+    height: 220px;
+
+
+    
+}
+#TB{
+    margin-top: 20px;
+    color: #f9f9f906; /* Green */
+   background-color: #FFCC66;
+}
+#TB:hover {
+    background-color: #f9f9f906; /* Green */
+    color: #FFCC66;
+    
+  }
+
+.Banks2{
+width: 800px;
+
+
+    
+    
     border: 2px solid white;
 
 
 
 }
 
-#Acc1 {
-    width: 200px;
-
+#Acc1{
+ width: 200px;
+ margin-left: 70px;
+ display: inline-block;
+ 
 }
 
+ #Amm{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 580px;
+    
+    display: inline-block;
+    
+   }
+   #Amm1{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 300px;
+    display: inline-block;
+    
+   }
+
 .accc {
+
     flex-direction: row;
 
     color: red;
 }
 
-#Acc2 {
-
+#Acc2{
+   margin-top: 10px;
     width: 200px;
-    margin-left: 600px;
-}
+   margin-left: 30px;
+    display: inline-block;
+   }
+
 
 #Country {
+
 
     visibility: hidden;
 }
