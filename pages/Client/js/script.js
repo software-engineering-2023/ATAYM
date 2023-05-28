@@ -3,7 +3,7 @@ function login() {
     var password = document.getElementById("password").value;
     if (username == "client" && password == "client" && true) {
         alert("Login successfully");
-        window.location.href = "pages/Client/client.html";
+        window.location.href = "../html/home.html";
         //window.location = "success.html";
 
         return false;
