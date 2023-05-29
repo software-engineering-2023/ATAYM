@@ -813,6 +813,7 @@ legend {
 #adtxt{
     width: 400px;
     height: 250px;
+    border-radius: 5px;
 }
 #adsub{
     margin-top : 50px;

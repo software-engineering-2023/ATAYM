@@ -18,8 +18,14 @@ function login() {
 
         return false;
     }
-    else {
-        alert("Login failed");
+    else if (username == "banker" && password == "banker" && true){
+        window.location.href = "../../Banker/html/BankerHome.html";
+        return false;
+    }
+
+    else if(username == "admin" && password == "admin" && true){
+        window.location.href = "../../Admin/html/Adminhome.html";
+        return false;
     }
 }
 
