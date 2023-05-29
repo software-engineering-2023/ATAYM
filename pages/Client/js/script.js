@@ -148,3 +148,14 @@ function closeAccount() {
 
 }
 
+function flip(element){
+
+    element.classList.add("fa-flip");
+
+}
+
+function cancelFlip(element){
+    
+    element.classList.remove("fa-flip");
+    
+}
