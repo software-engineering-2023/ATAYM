@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+body {
+    /* background-image: url(wallpaperflare.com_wallpaper.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: 100%;
+}
+
+.login {
+    color: #FFCC66;
+    font-family:poppins,sans-serif;
+}
+
+
+.container {
+    /* margin-top: 90px;
+    margin-left: 100px; */
+    /* margin: 80px; */
+    /* margin: auto; */
+    margin-top: 10px;
+    width: 400px;
+    height: 370px;
+    /* box-shadow: 0 0 15px rgba(229, 231, 220, 0.3); */
+    box-shadow: 0 0 15px #FFCC66;
+    border-radius: 20px;
+    transition: all 400ms ease-in;
+    /* box-shadow: 5px 5px 15px blue;
+    border: 2px solid black;
+    border-radius: 0 20% 0 20%; */
+}
+
+.container:hover {
+    box-shadow: none;
+}
