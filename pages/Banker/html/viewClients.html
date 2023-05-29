@@ -18,7 +18,7 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
       />
 
-  <title>credit card apps</title>
+  <title>Loan Apps</title>
 </head>
 
 <body>
@@ -82,27 +82,30 @@
           </a>
 
 
+         
           <a href="LoanApps.html" class="icons">
             <span class="material-symbols-outlined">
-              event
+              report
             </span>
-            <h3 class="head">View Loan Apps</h3>
+            <h3 class="head">View Loans Applications</h3>
           </a>
 
-          <a href="" class="icons" id="homeIcon">
+
+
+          <a href="CCApps.html" class="icons">
             <span class="material-symbols-outlined">
               notifications
             </span>
             <h3 class="head">View credit card apps</h3>
           </a>
 
-          <a href="viewClients.html" class="icons">
+          
+          <a href="viewClients.html" class="icons" id="homeIcon">
             <span class="material-symbols-outlined">
-              notifications
+              event
             </span>
             <h3 class="head">View Clients</h3>
           </a>
-          
           <!-- <a href="" class="icons">
             <span class="material-symbols-outlined">
               contact_mail
@@ -159,12 +162,12 @@
           <div class="entry">
             <p>Omar</p>
           </div>
-          <!-- <div class="entry">
+          <div class="entry">
             <p>Mohamed</p>
           </div>
           <div class="entry">
             <p>Ramzy</p>
-          </div> -->
+          </div>
          </div>
 
          <div class="loan-col">
@@ -189,12 +192,12 @@
           <div class="entry">
             <p>111</p>
           </div>
-          <!-- <div class="entry">
+          <div class="entry">
             <p>231</p>
           </div>
           <div class="entry">
             <p>10</p>
-          </div> -->
+          </div>
          </div>
 
          <div class="loan-col">
@@ -219,102 +222,44 @@
           <div class="entry">
             <p>+201147978544</p>
           </div>
-          <!-- <div class="entry">
+          <div class="entry">
             <p>+201023658977</p>
           </div>
           <div class="entry">
             <p>+2012181047155</p>
-          </div> -->
+          </div>
          </div>
+
+         
 
          <div class="loan-col">
           <div class="entry">
-            <h4>App number</h4> <br>
+            <h4 style="color:black;">Loan amount</h4> <br>
           </div>
           <div class="entry">
-            <p>C789</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>C125</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>c369</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>C784</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>C012</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>C874</p>
-          </div>
-          <!-- <div class="entry">
-            <p>C007</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>C156</p>
-          </div> -->
-         </div>
-
-         <div class="loan-col">
-          <div class="entry">
-            <h4>Issue Date</h4> <br>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
           <div class="entry">
-            <p>29 May 2023</p>
+            <button class="acc_rej" onclick="accept()"> BankAcc</button>
           </div>
-          <div class="entry">
-            <p>20 May 2023</p>
-          </div>
-          <div class="entry">
-            <p>29 Dec 2022</p>
-          </div>
-          <div class="entry">
-            <p>14 May 2023</p>
-          </div>
-          <div class="entry">
-            <p>31 Jan 2023</p>
-          </div>
-          <div class="entry">
-            <p>06 Apr 2023</p>
-          </div>
-          <!-- <div class="entry">
-            <p>07 Mar 2023</p>
-          </div>
-          <div class="entry">
-            <p>25 Feb 2023</p>
-          </div> -->
-         </div>
-
-         <div class="loan-col">
-          <div class="entry">
-            <h4>Reason</h4> <br>
-          </div>
-          <div class="entry">
-            <p>Broken card</p>
-          </div>
-          <div class="entry">
-            <p>Stolen card</p>
-          </div>
-          <div class="entry">
-            <p>Broken card</p>
-          </div>
-          <div class="entry">
-            <p>Broken card</p>
-          </div>
-          <div class="entry">
-            <p>Stolen card</p>
-          </div>
-          <div class="entry">
-            <p>stolen card</p>
-          </div>
-          <!-- <div class="entry">
-            <p>Broken card</p>
-          </div>
-          <div class="entry">
-            <p>Broken card</p>
-          </div> -->
          </div>
 
          <div class="loan-col">
@@ -322,59 +267,29 @@
             <h4 style="color:black;">Loan amount</h4> <br>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
-          </div>
-          <!-- <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept1()">Accept</button>
-          </div> -->
-         </div>
-
-         <div class="loan-col">
-          <div class="entry">
-            <h4 style="color:black;">Loan amount</h4> <br>
+            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="reject()"> Credit Card</button>
           </div>
-          <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
-          </div>
-          <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
-          </div>
-          <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
-          </div>
-          <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
-          </div>
-          <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
-          </div>
-          <!-- <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject1()">Reject</button>
-          </div>
-          <div class="entry">
-            <button class="acc_rej" id="reject" onclick="reject1()">Reject</button>
-          </div> -->
          </div>
         </div>
             
@@ -393,14 +308,6 @@
 
     function accept() {
       alert("Loan application is accepted successfully!");
-    }
-
-    function accept1() {
-      alert("Card application is accepted successfully!");
-    }
-
-    function Reject1() {
-      alert("Card application is rejected! Please contact the client.");
     }
   </script>
 
