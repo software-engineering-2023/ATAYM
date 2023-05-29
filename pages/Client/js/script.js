@@ -8,6 +8,8 @@ function saveButton(button) {
 }
 
 
+
+
 function login() {
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -158,4 +160,9 @@ function cancelFlip(element){
     
     element.classList.remove("fa-flip");
     
+}
+
+function signUp(){
+    alert("Signed Up Successfully");
+    window.location.href = "../html/login.html";
 }

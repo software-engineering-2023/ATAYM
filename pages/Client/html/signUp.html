@@ -9,7 +9,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="../js/script.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <title>LogIn</title>
+    <title>SignUp</title>
 </head>
 
 <body id="body">
@@ -17,13 +17,13 @@
     <div><img src="../../../public/logoo.png"
             style="display: flex; margin-left: 35.5%; width: 25rem; margin-top: 2rem;"></div>
 
-    <div class="container">
+    <div class="container" style="height: 400px;">
 
 
         <br>
         <h1 class="login"
             style="text-align: center;">
-            Login</h1>
+            SignUp</h1>
         <br>
 
 
@@ -37,13 +37,18 @@
                 required>
             <label id="pass" for="password">Password</label>
         </div>
+        
 
+        <div class="form-floating">
+            <input type="password" class="form-control" style="height: 80%; margin-top: 15px;" id="passwordd" placeholder="Password"
+                required>
+            <label for="passwordd">Confirm Password</label>
+        </div>
         <br>
-        <p class="login">Don't have an account? <a href="signUp.html">Sign up</a></p>
         <div class="d-grid gap-2 col-6 mx-auto">
             <button class="btn btn-primary" type="button" style="background-color: #FFCC66 ; border: none; color: black;
-            " onclick="login()">Log
-                In</button>
+            " onclick="signUp()">Sign
+                Up</button>
         </div>
     </div>
 

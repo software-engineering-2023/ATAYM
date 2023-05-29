@@ -9,7 +9,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="../js/script.js"></script>
     <link rel="stylesheet" href="../css/Admin.css">
-    <title>LogIn</title>
+    <title>Create Account</title>
 </head>
 
 <body id="body">
@@ -22,28 +22,34 @@
 
         <br>
         <h1 class="login"
-            style="text-align: center;">
-            Login</h1>
+            style="color: #FFCC66; font-family: poppins, sans-serif;">
+            Sign Up</h1>
         <br>
 
 
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" style="height: 80%;" id="email" placeholder="name@example.com"
+            <input type="text" class="form-control" style="height: 80%; width: 50%;" id="banker" placeholder="name@example.com"
+                required>
+            <label for="banker">Banker ID</label>
+        </div>
+
+
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" style="height: 80%; width: 50%;" id="email" placeholder="name@example.com"
                 required>
             <label for="email">Email address</label>
         </div>
         <div class="form-floating">
-            <input type="password" class="form-control" style="height: 80%;" id="password" placeholder="Password"
+            <input type="password" class="form-control" style="height: 80%; width: 50%;" id="password" placeholder="Password"
                 required>
             <label id="pass" for="password">Password</label>
         </div>
 
         <br>
-        <p class="login">Don't have an account? <a href="signUp.html">Sign up</a></p>
         <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary" type="button" style="background-color: #FFCC66 ; border: none; color: black;
-            " onclick="login()">Log
-                In</button>
+            <button class="btn btn-primary" type="button" style="background-color: #FFCC66 ; border: none; color: black; width: 50%;
+            " onclick=window.location.href="../html/Adminhome.html">Sign
+                Up</button>
         </div>
     </div>
 
