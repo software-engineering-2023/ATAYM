@@ -172,3 +172,7 @@ function signUp(){
     alert("Signed Up Successfully");
     window.location.href = "../html/login.html";
 }
+
+function reminder(){
+    alert("Reminder Sent Successfully");
+}
