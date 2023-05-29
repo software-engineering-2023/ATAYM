@@ -63,7 +63,7 @@
 
         <div class="main">
 
-          <a href="Adminhome.html" class="icons" id="homeIcon">
+          <a href="Adminhome.html" class="icons">
             <span class="material-symbols-outlined">
               home
             </span>
@@ -114,16 +114,17 @@
           <h1 id="TransferTitle">Issue Announcement</h1>
 
         </div>
-        
-      
-        
+
+
+
         <textarea id="adtxt">
 
     </textarea>
-    <br>
-    <a href="Adminhome.html">
-      <button class="btn btn-primary" type="button" style="background-color: #FFCC66 ; border: none; color: black;">
-      Submit</button>
+        <br>
+        <a href="Adminhome.html">
+          <button class="btn btn-primary" type="button" style="background-color: #FFCC66 ; border: none; color: black;"
+            onclick="submit()">
+            Submit</button>
       </div>
 
 
@@ -155,6 +156,15 @@
   </div>
   </div>
 
+
+  <script>
+    function submit() {
+
+
+      alert("Announcement submitted");
+
+    }
+  </script>
 
 
 

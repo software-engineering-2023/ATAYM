@@ -74,7 +74,7 @@
             <h3 class="head">Home</h3>
           </a>
 
-          <a href="" class="icons">
+          <a href="../html/creditCardreports.html" class="icons">
             <span class="material-symbols-outlined">
               report
             </span>
@@ -232,28 +232,28 @@
             <h4 style="color:black;">Loan amount</h4> <br>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()"> BankAcc</button>
+            <button class="acc_rej" data-bs-toggle="modal" data-bs-target="#exampleModal1"> BankAcc</button>
           </div>
          </div>
 
@@ -262,34 +262,123 @@
             <h4 style="color:black;">Loan amount</h4> <br>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="reject()"> Credit Card</button>
+            <button class="acc_rej" id="reject" data-bs-toggle="modal" data-bs-target="#exampleModal"> Credit Card</button>
           </div>
          </div>
         </div>
             
         </div> <!-- container2 -->
       </div> <!-- panel -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Credit Cards</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row1" style="color: black; display: flex; flex-wrap: wrap;">
+                <div>
+                  Card Number 5527745
+                </div>
+                <div>
+                  Amount Due $750
+                </div>
+                <div>
+                  Amount paid $2000
+                </div>
+                <div>
+                  Due Date 02/6/2023
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row1" style="color: black; display: flex; flex-wrap: wrap;">
+                <div>
+                  Card Number 4869515
+                </div>
+                <div>
+                  Amount Due $550
+                </div>
+                <div>
+                  Amount paid $2500
+                </div>
+                <div>
+                  Due Date 10/6/2023
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Bank Accounts</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row1" style="color: black; display: flex; flex-wrap: wrap;">
+                <div>
+                  Account Number 5527745
+                </div>
+                <div>
+                  Balance $750
+                </div>
+                <div>
+                  Type Savings
+                </div>
+               
+              </div>
+
+              <hr>
+
+              <div class="row1" style="color: black; display: flex; flex-wrap: wrap;">
+                <div>
+                  Account Number 4869515
+                </div>
+                <div>
+                  Balance $550
+                </div>
+                <div>
+                  Type Checking
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 

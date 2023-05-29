@@ -74,7 +74,7 @@
             <h3 class="head">Home</h3>
           </a>
 
-          <a href="" class="icons">
+          <a href="../html/creditCardreports.html" class="icons">
             <span class="material-symbols-outlined">
               report
             </span>
@@ -287,28 +287,28 @@
             <h4 style="color:black;">Loan amount</h4> <br>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" onclick="accept()">Accept</button>
+            <button class="acc_rej" onclick="accept(this)">Accept</button>
           </div>
          </div>
 
@@ -317,28 +317,28 @@
             <h4 style="color:black;">Loan amount</h4> <br>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="Reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
           <div class="entry">
-            <button class="acc_rej" id="reject" onclick="reject()">Reject</button>
+            <button class="acc_rej" id="reject" onclick="Reject(this)">Reject</button>
           </div>
          </div>
         </div>
@@ -352,12 +352,18 @@
 
 
   <script>
-    function Reject() {
+    function Reject(button) {
       alert ("Loan application is rejected! Please contact the client.");
+      button.disabled=true;
+      button.style.backgroundColor = "grey";
+      button.style.border= "grey";
     }
 
-    function accept() {
+    function accept(button) {
       alert("Loan application is accepted successfully!");
+      button.disabled=true;
+      button.style.backgroundColor = "grey";
+      button.style.border= "grey";
     }
   </script>
 
