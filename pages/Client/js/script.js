@@ -1,9 +1,7 @@
 
 
 const payBillsButtons = Array.from(document.querySelectorAll(".green-button"));
-
-
-
+const swal = require('sweetalert2')
 
 
 function login() {
@@ -35,14 +33,17 @@ function payCreditDue(){
 
     var all= document.getElementById('selectAll');
     var card1= document.getElementById('card1');
-    var card2= document.getElementById('card1');
+    var card2= document.getElementById('card2');
     if(card1.checked || card2.checked || all.checked){
+        prompt("Enter Bank Account Number For Payment");
+        prompt("Enter Amount");
         alert("Payment Successful");
+        window.location.href = "../html/cards.html";
     }
     else{
         alert("Please Select a card");
     }
-    window.location.href = "../html/cards.html";
+    
 
 }
 
@@ -50,14 +51,14 @@ function reportLoss(){
 
     var all= document.getElementById('selectAll');
     var card1= document.getElementById('card1');
-    var card2= document.getElementById('card1');
+    var card2= document.getElementById('card2');
     if(card1.checked || card2.checked || all.checked){
-        alert("Report Successful");
+        alert("Reported Successfully");
+        window.location.href = "../html/cards.html";
     }
     else{
         alert("Please Select a card");
     }
-    window.location.href = "../html/cards.html";
 
 }
 
@@ -98,3 +99,40 @@ function payBill(){
         alert("Please Select a card or account");
     }
 }
+
+function transferType(){
+    const type= document.getElementById("Transferlist");
+    if(type.value=="1"){
+        prompt("Enter Bank Name");
+    }
+    else if(type.value=="2"){
+        prompt("Enter Country Name");
+        prompt("Enter Bank Name");
+    }
+}
+
+
+function transfer(){
+    alert("Transfer Completed Successfully");
+}
+
+function redeemPoints(){
+    var all= document.getElementById('selectAll');
+    var card1= document.getElementById('card1');
+    var card2= document.getElementById('card2');
+    if(card1.checked || card2.checked || all.checked){
+        prompt("Enter Bank Account Number To recieve the cash On");
+        alert("Redeemed Successfully");
+        window.location.href = "../html/cards.html";
+    }
+    else{
+        alert("Please Select a card");
+    }
+
+}
+
+function reportTransaction(){
+    prompt("Enter Transaction Number");
+    alert("Reported Successfully");
+}
+

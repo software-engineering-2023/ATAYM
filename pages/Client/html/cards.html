@@ -43,7 +43,7 @@
                 <h3 class="head">Home</h3>
                 </a>
       
-                <a href="#" class="icons">
+                <a href="../html/Contact.html" class="icons">
                   <span class="material-symbols-outlined">
                     report
                   </span>
@@ -66,7 +66,7 @@
                 </a>
     
     
-                <a href="../html/ContactUs.html" class="icons">
+                <a href="../html/Contact.html" class="icons">
                   <span class="material-symbols-outlined">
                     contact_mail
                   </span>
@@ -127,7 +127,7 @@
                     <h5 style="font-size: 12px;">View Your Cards</h5>
                 </a>
 
-                <a href="../html/loanApp.html" style="text-decoration: none;color: #FFCC66">
+                <a href="../html/cardApp.html" style="text-decoration: none;color: #FFCC66">
                     <h5 style="font-size: 12px;">Apply For Card</h5>
                 </a>
                 
@@ -188,10 +188,10 @@
 
                     <h4 style="font-weight: bold;">Type</h4>
                     <h4 style="font-weight: bold;">Card Number</h4>
-                    <h4 style="font-weight: bold;">CVV</h4>
                     <h4 style="font-weight: bold;">Amount Due</h4>
                     <h4 style="font-weight: bold;">Due Date</h4>
                     <h4 style="font-weight: bold;">Expiry Date</h4>
+                    <h4 style="font-weight: bold;">Points</h4>
                     <h4 style="font-weight: bold;">Status</h4>
                     <input type="checkbox" id="selectAll" style="margin-bottom:20px;margin-right: 5px;">
                     
@@ -202,10 +202,10 @@
                   <i class="fa-solid fa-credit-card fa-2x" style="color: black; margin-bottom: 20px;"></i>
 
                     <h4 style="font-size: 14px;margin-left: -35px;">5060-1682-4895-6743</h4>
-                    <h4 style="font-size: 14px;margin-left: -25px;">449</h4>
-                    <h4 style="font-size: 14px;margin-left: 20px;">$2500</h4>
-                    <h4 style="font-size: 14px;">2/6/2023</h4>
+                    <h4 style="font-size: 14px;margin-left: -25px;">$2500</h4>
+                    <h4 style="font-size: 14px;margin-left: 20px;">2/6/2023</h4>
                     <h4 style="font-size: 14px;">10/8/2027</h4>
+                    <h4 style="font-size: 14px;">550</h4>
                     <h4 style="font-size: 14px;">Active</h4>
                     <input type="checkbox" id="card1" style="margin-bottom:20px;">
 
@@ -219,11 +219,11 @@
 
                     <i class="fa-solid fa-crown fa-2x" style="color: black; margin-bottom: 20px;"></i>
 
-                    <h4 style="font-size: 14px;margin-left: -35px;">7054-1879-2460-3452</h4>
-                    <h4 style="font-size: 14px;margin-left: -25px;">966</h4>
-                    <h4 style="font-size: 14px;margin-left: 20px;">$1700</h4>
-                    <h4 style="font-size: 14px;">15/6/2023</h4>
-                    <h4 style="font-size: 14px;">20/2/2028</h4>
+                    <h4 style="font-size: 14px;margin-left: -35px;">1570-7951-2460-7532</h4>
+                    <h4 style="font-size: 14px;margin-left: -25px;">$3500</h4>
+                    <h4 style="font-size: 14px;margin-left: 20px;">4/6/2023</h4>
+                    <h4 style="font-size: 14px;">10/9/2028</h4>
+                    <h4 style="font-size: 14px;">700</h4>
                     <h4 style="font-size: 14px;">Active</h4>
                     <input type="checkbox" id="card2" style="margin-bottom:20px;">
 
@@ -239,6 +239,11 @@
                     <button type="button" class="btn" style="background-color:#45dd38" onclick="payCreditDue()">Pay Due</button>
                     
                   </div>
+                  <div class="btn-group me-2" aria-label="Second group">
+                    <button type="button" class="btn btn-secondary" onclick="redeemPoints()">Redeem Points</button>
+                    
+                  </div>
+
                   <div class="btn-group me-2" aria-label="Second group">
                     <button type="button" class="btn btn-danger" onclick="reportLoss()">Report Stolen/Lost</button>
                     

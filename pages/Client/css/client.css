@@ -325,7 +325,6 @@ body {
     margin-bottom: 30px;
     font-family: poppins, sans-serif;
     color: #FFCC66;
-
     margin-left: 300px;
 
 }
@@ -343,13 +342,16 @@ body {
 
 #Transferlist {
     width: 200px;
-    margin-left: 310px;
+    /* margin-left: 310px; */
     background-color: #f9f9f906;
     box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a;
     border-color: #FFCC66;
     border-width: 5px;
     border-radius: 5px;
     color: #FFCC66;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
 
 
 
@@ -367,11 +369,12 @@ body {
 
 .Banks {
     width: 800px;
-display: inline-block;
+    display: inline-block;
     justify-content: space-around;
     display: flex;
-
-    border: 2px solid white;
+    /* box-shadow: 0 0 15px #FFCC66;
+    border-radius: 15px; */
+    padding: 5px;
     height: 220px;
 
 
@@ -389,14 +392,14 @@ display: inline-block;
   }
 
 .Banks2{
-width: 800px;
+    width: 800px;
 
-
+    height: fit-content;
     
-    
-    border: 2px solid white;
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 200px;
 
 }
 
@@ -606,22 +609,21 @@ legend {
     display: flex;
     /* flex-direction: row; */
 
-
     width: 900px;
-    height: 900px;
+    height: fit-content;
     margin-left: -40px;
 
     justify-content: center;
 
-    align-items: center;
 
+    margin-top: 170px;
     gap: 70px;
 
     /* border: 2px solid white ; */
 
 
 
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
 }
 
@@ -899,9 +901,8 @@ legend {
 .cardButtons {
     display: flex;
     flex-direction: row;
-    width: 320px;
-    /* border: 2px solid white; */
-    margin-left: 650px;
+    width: 460px;
+    margin-left: 470px;
     margin-top: 20px;
     padding: 10px;
 
@@ -1067,4 +1068,27 @@ legend {
     background-color: rgb(62, 157, 62);
     color: black;
     
+}
+
+.inputTransfer{
+    
+    /* box-shadow: 6px 6px 20px #a68542, -6px -6px 20px #ffff8a; */
+    box-shadow: 0 0 15px #FFCC66;
+    border-color: #FFCC66;
+    border-width: 2px;
+    border-radius: 5px;
+    color: #FFCC66;
+    height: 50px;
+}
+
+#confirmTransfer{
+    margin-left: 52px;
+    margin-top: 30px;
+    background-color: #FFCC66;
+}
+
+
+#confirmTransfer:hover{
+    background-color: #1e1701;
+    color: #FFCC66;
 }
